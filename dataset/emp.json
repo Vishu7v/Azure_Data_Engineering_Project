@@ -1,0 +1,56 @@
+{
+	"name": "emp",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "employee.json",
+				"container": "row-container"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"EMPLOYEE_ID": {
+					"type": "integer"
+				},
+				"FIRST_NAME": {
+					"type": "string"
+				},
+				"LAST_NAME": {
+					"type": "string"
+				},
+				"EMAIL": {
+					"type": "string"
+				},
+				"PHONE_NUMBER": {
+					"type": "string"
+				},
+				"HIRE_DATE": {
+					"type": "string"
+				},
+				"JOB_ID": {
+					"type": "string"
+				},
+				"SALARY": {
+					"type": "integer"
+				},
+				"COMMISSION_PCT": {
+					"type": "integer"
+				},
+				"MANAGER_ID": {
+					"type": "integer"
+				},
+				"DEPARTMENT_ID": {
+					"type": "integer"
+				}
+			}
+		}
+	}
+}
