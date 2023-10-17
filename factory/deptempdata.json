@@ -1,0 +1,9 @@
+{
+	"name": "deptempdata",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2857e698-7497-4374-bf76-1508ce770418",
+		"tenantId": "141cfedd-2714-4e73-a4b0-21009bba5b00"
+	}
+}
