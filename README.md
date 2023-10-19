@@ -24,3 +24,10 @@ A data pipeline is a technique for transferring data from one system to another.
 
 -> The Dataset files are uploaded in the Container in Azure.
 
+**Disgen and development of pipeline**
+
+![image](https://github.com/Vishu7v/Azure_Data_Factory_Project/assets/138843413/d57b652b-a192-4b32-ae25-7338b8b501b0)
+
+![image](https://github.com/Vishu7v/Azure_Data_Factory_Project/assets/138843413/2c85fd73-95ba-4c18-b926-3956bdd1ab44)
+
+![image](https://github.com/Vishu7v/Azure_Data_Factory_Project/assets/138843413/a3ae14c3-3591-48ac-96c6-5ca4a58138c9)
